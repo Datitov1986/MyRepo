@@ -3,11 +3,11 @@
 Console.Write("Введите число: ");
 int x = Convert.ToInt32(Console.ReadLine());
 
-if(x % 2 == 1)
+if(x % 2 == 0)
 {
-    Console.WriteLine("Ваше число нечетное ");
+    Console.WriteLine("Ваше число четное ");
 }
 else
 {
-    Console.WriteLine("Ваше число четное ");
+    Console.WriteLine("Ваше число нечетное ");
 }
