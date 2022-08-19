@@ -13,7 +13,6 @@ else if(x==y)
 {
     Console.Write("Да числа-то одинаковые! ");
 }
-else if(x < y)
-{
+else
+
     Console.Write("Второе число больше ");
-}
