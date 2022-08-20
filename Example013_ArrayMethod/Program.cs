@@ -31,7 +31,8 @@ int IndexOf(int[] collection, int find)
 {
     int count = collection.Length;
     int index = 0;
-    int position = -1;
+    int position = -1; // ставлю значение -1 чтобы, в случае если нет элемента удовлетворяющего условию
+    //появлялось значение -1, что будет означать что такой элемент не найден
     while(index < count)
     {
         if(collection[index] == find)
