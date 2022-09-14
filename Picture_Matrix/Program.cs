@@ -76,7 +76,7 @@ double Fibonacci(int n)
     else return Fibonacci(n - 1) + Fibonacci(n - 2);
 }
 
-for (int i = 1; i < 50; i++)
+for (int i = 1; i < 30; i++)
 {
     Console.WriteLine($"f({i}) = {Fibonacci(i)}");
 }
